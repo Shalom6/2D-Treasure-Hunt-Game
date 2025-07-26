@@ -11,6 +11,13 @@ public class Main {
         window.setResizable(false);
         window.setTitle("2D Treasure Hunt");
 
+        // add game panel to the window
+        GamePanel gamePanel = new GamePanel();
+        window.add(gamePanel);
+
+        // use preferred size
+        window.pack();
+
         // Centers the location of the window
         window.setLocationRelativeTo(null);
         // Makes the window visible
