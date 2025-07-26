@@ -10,5 +10,10 @@ public class Main {
         // Make sure the window is not resizable and window title
         window.setResizable(false);
         window.setTitle("2D Treasure Hunt");
+
+        // Centers the location of the window
+        window.setLocationRelativeTo(null);
+        // Makes the window visible
+        window.setVisible(true);
     }
 }
